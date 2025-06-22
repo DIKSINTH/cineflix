@@ -1,0 +1,131 @@
+[
+  {
+    "movietitle": "It",
+    "movieyear": "2017",
+    "moviedirector": "Andy Muschietti",
+    "moviemainphoto": "./images/it.jpg",
+    "moviegenres": ["Monster Horror", "Supernatural Horror", "Horror"],
+    "movieruntime": "135 Minutes",
+    "moviecountry": "United States",
+    "moviestory": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+    "moviebudget": "$35-39 million",
+    "movieboxoffice": "$704.2 million"
+  },
+  {
+    "movietitle": "It Chapter Two",
+    "movieyear": "2019",
+    "moviedirector": "Andy Muschietti",
+    "moviemainphoto": "./images/it_chapter_two.jpg",
+    "moviegenres": [
+      "Dark Fantasy",
+      "Monster Horror",
+      "Supernatural Horror",
+      "Horror",
+      "Drama",
+      "Fantasy"
+    ],
+    "movieruntime": "",
+    "moviecountry": "",
+    "moviestory": "Twenty-seven years after their first encounter with the terrifying Pennywise, the Losers Club have grown up and moved away, until a devastating phone call brings them back.",
+    "moviebudget": "$79 million",
+    "movieboxoffice": "$473.1 million"
+  },
+  {
+    "movietitle": "Jurassic Park",
+    "movieyear": "1993",
+    "moviedirector": "Steven Spielberg",
+    "moviemainphoto": "./images/jurassic_park.jpg",
+    "moviegenres": [
+      "Dinosaur Adventure",
+      "Jungle Adventure",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "movieruntime": "",
+    "moviecountry": "",
+    "moviestory": "An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger.",
+    "moviebudget": "$63 million",
+    "movieboxoffice": "$1.058 billion"
+  },
+  {
+    "movietitle": "The Lost World Jurassic Park",
+    "movieyear": "1997",
+    "moviedirector": "Steven Spielberg",
+    "moviemainphoto": "./images/the_lost_world_jurassic_park.jpg",
+    "moviegenres": [
+      "Dinosaur Adventure",
+      "Jungle Adventure",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "movieruntime": "",
+    "moviecountry": "",
+    "moviestory": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
+    "moviebudget": "$73-75 million",
+    "movieboxoffice": "$618.6 million"
+  },
+  {
+    "movietitle": "Jurassic Park III",
+    "movieyear": "2001",
+    "moviedirector": "Joe Johnston",
+    "moviemainphoto": "./images/jurassic_park_iii.jpg",
+    "moviegenres": [
+      "Dinosaur Adventure",
+      "Jungle Adventure",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "movieruntime": "",
+    "moviecountry": "",
+    "moviestory": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
+    "moviebudget": "$93 million",
+    "movieboxoffice": "$368.8 million"
+  },
+  {
+    "movietitle": "Jurassic World",
+    "movieyear": "2015",
+    "moviedirector": "Colin Trevorrow",
+    "moviemainphoto": "./images/jurassic_world.jpg",
+    "moviegenres": [
+      "Dinosaur Adventure",
+      "Jungle Adventure",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "movieruntime": "",
+    "moviecountry": "",
+    "moviestory": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+    "moviebudget": "$150-215 million",
+    "movieboxoffice": "$1.671 billion"
+  },
+  {
+    "movietitle": "Jurassic World Fallen Kingdom",
+    "movieyear": "2018",
+    "moviedirector": "J.A. Bayona",
+    "moviemainphoto": "./images/jurassic_world_fallen_kingdom.jpg",
+    "moviegenres": ["Dinosaur Adventure", "Action", "Adventure", "Sci-Fi"],
+    "movieruntime": "",
+    "moviecountry": "",
+    "moviestory": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+    "moviebudget": "$432 million",
+    "movieboxoffice": "$1.31 billion"
+  },
+  {
+    "movietitle": "Jurassic World Dominion",
+    "movieyear": "2022",
+    "moviedirector": "Colin Trevorrow",
+    "moviemainphoto": "./images/jurassic_world_dominion.jpg",
+    "moviegenres": ["Dinosaur Adventure", "Action", "Adventure", "Sci-Fi"],
+    "movieruntime": "147 Minutes , 161 Minutes (Extended Cut)",
+    "moviecountry": "United States",
+    "moviestory": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+    "moviebudget": "$265 million",
+    "movieboxoffice": "$1.004 billion"
+  }
+]

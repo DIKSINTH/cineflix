@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #211c1c;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #00ff04;
+}
+
+header input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #211c1c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #00ff04;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.movie-card {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.movie-card img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.movie-info h2 {
+  margin-top: 0;
+}
+
+.info-page {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.info-page img {
+  width: 300px;
+  height: auto;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.movie-details h1 {
+  margin-top: 0;
+}
+
+.genre-tags {
+  margin: 20px 0;
+}
+
+.genres-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.genre-box {
+  background-color: #00ff04;
+  color: black;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: 2px solid black;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #00ff04;
+  color: black;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #00cc03;
+  color: white;
+}
