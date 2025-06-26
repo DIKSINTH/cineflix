@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Info from "./Info";
-import "./style.css";
 
 export default function App() {
   const [movies, setMovies] = useState([]);
@@ -22,7 +21,8 @@ export default function App() {
       });
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading)
+    return <p style={{ textAlign: "center", padding: "40px" }}>Loading...</p>;
 
   return (
     <Router>

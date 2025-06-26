@@ -7,7 +7,14 @@ const Info = ({ movies, searchTerm, setSearchTerm }) => {
   const { title } = useParams();
   const movie = movies.find((m) => m.movietitle === decodeURIComponent(title));
 
-  if (!movie) return <p>Movie not found.</p>;
+  if (!movie)
+    return (
+      <div style={{ textAlign: "center", padding: "40px" }}>
+        <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+        <p>Movie not found.</p>
+        <Footer />
+      </div>
+    );
 
   return (
     <div>
@@ -25,12 +32,10 @@ const Info = ({ movies, searchTerm, setSearchTerm }) => {
           <h1>
             {movie.movietitle} ({movie.movieyear})
           </h1>
-
           <p>
             <strong>Director:</strong> {movie.moviedirector}
           </p>
 
-          {/* Genre Tags */}
           <div className="genre-tags">
             <strong>Genres:</strong>
             <div className="genres-container">
@@ -46,7 +51,6 @@ const Info = ({ movies, searchTerm, setSearchTerm }) => {
             <strong>Story:</strong> {movie.moviestory}
           </p>
 
-          {/* ✅ Newly added runtime and country */}
           {movie.movieruntime && (
             <p>
               <strong>Runtime:</strong> {movie.movieruntime}
@@ -57,7 +61,6 @@ const Info = ({ movies, searchTerm, setSearchTerm }) => {
               <strong>Country:</strong> {movie.moviecountry}
             </p>
           )}
-
           {movie.moviebudget && (
             <p>
               <strong>Budget:</strong> {movie.moviebudget}
